@@ -1,0 +1,16 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the displacement: ");
+        int disp = scanner.nextInt();
+
+        System.out.print("Enter the time taken: ");
+        int time = scanner.nextInt();
+
+        int velocity = disp/time;
+        System.out.println("The velocity is: " + velocity);
+
+        scanner.close();
+
+	}
