@@ -1,0 +1,17 @@
+public static void main(String[] args) {
+		int n=123, number, r , res=0;
+		number=n;
+		while(number !=0) {
+			r= number%10;
+			res += r*r*r;
+			number /=10;
+		}
+        
+		if(n==res) {
+			System.out.println(n+"is an armstring number");
+		}
+		else {
+			System.out.println(n+ " is not an armstrong number");
+		}
+
+	}
